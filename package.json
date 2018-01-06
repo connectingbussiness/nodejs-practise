@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "node js testing demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connectingbussiness/node-app.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/connectingbussiness/node-app/issues"
+  },
+  "homepage": "https://github.com/connectingbussiness/node-app#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

@@ -10,7 +10,8 @@ var ip=app.set('ip',server_ip_address);
 app.get('/',(req,res)=>{
     // res.writeHead(200,{'content-type':'plain/text'});
     // res.send('Hello world');
-    res.render(path.join(__dirname,'dist','index.html'))
+    //res.render(path.join(__dirname,'dist','index.html'))
+	res.json({message:'this is goddess application');
     
 })
 
